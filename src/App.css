@@ -48,16 +48,22 @@ body {
 }
 
 .search-icon-container {
-  align-self: center;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  /* border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; */
   border-right-color: #ececec;
   border: 1px solid #6697ff;
   background-color: #2850a7;
   padding: 19px;
   width: 15%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon-container {
+    padding: 16px;
+  }
 }
 
 .search-icon {
@@ -67,7 +73,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .search-icon {
-    width: 20px;
+    width: 25px;
+    height: 25px;
   }
 }
 
