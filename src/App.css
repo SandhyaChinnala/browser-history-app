@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #3367d6;
+  width: 100%;
+}
+
+.logo {
+  width: 130px;
+  height: 40px;
+  align-self: center;
+}
+
+.input-search-container {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  width: 45%;
+  border: 1px solid #6697ff;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.search-icon-container {
+  align-self: center;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-right-color: #ececec;
+  border: 1px solid #6697ff;
+  background-color: #2850a7;
+  padding: 19px;
+  width: 15%;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-icon {
+    width: 20px;
+  }
+}
+
+.search-input {
+  color: #ececec;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 500;
+  width: 100%;
+  outline: none;
+  border: 1px solid #6697ff;
+  border-left: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #2850a7;
+  padding: 20px;
+}
+
+.history-list-container {
+  list-style-type: none;
+  padding-left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 40px;
+  /* box-shadow: 2px 2px 2px 1px #bfbfbf; */
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.2);
+}
+.empty-history-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  width: 80%;
+  min-height: 500px;
+  color: #475569;
+  font-size: 22px;
+}

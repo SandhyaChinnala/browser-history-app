@@ -1,0 +1,64 @@
+.history-items-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.time-accessed {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.history-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.domain-container {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.domain-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.domain-name-container {
+  display: flex;
+  width: 100%;
+}
+.title {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 17px;
+  margin-right: 20px;
+}
+.domain-url {
+  color: #838a94;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  align-self: center;
+}
+/* .delete-container {
+  align-self: center;
+} */
+
+.delete-button {
+  border-width: 0;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  align-self: center;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}
